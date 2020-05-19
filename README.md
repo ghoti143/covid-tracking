@@ -1,4 +1,4 @@
-# hello_world
+# covid_tracker
 
 A new Flutter project.
 

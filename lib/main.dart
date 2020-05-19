@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               if (snapshot.hasError) print(snapshot.error);
           
               return snapshot.hasData
-                  ? ListViewCovidStates(covidStates: snapshot.data) // return the ListView widget
+                  ? ListViewCovidStates(covidStates: snapshot.data)
                   : Center(child: CircularProgressIndicator());
             },
           ),

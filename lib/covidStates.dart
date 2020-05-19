@@ -29,7 +29,7 @@ class CovidState {
     if (response.statusCode == 200) {
       return parseStates(response.body);
     } else {
-      throw Exception('Failed to load album');
+      throw Exception('Failed to load state data');
     }
   }
 }
